@@ -1,4 +1,4 @@
-file = open("input.txt","r")
+file = open("input.txt", "r")
 lines = file.readlines()
 number = 0
 numbers = []
@@ -10,6 +10,6 @@ for line in lines:
         number = 0
 
 print(max(numbers))
-numbers = sorted(numbers,reverse=True)
+numbers = sorted(numbers, reverse=True)
 print(numbers)
 print(numbers[0]+numbers[1]+numbers[2])

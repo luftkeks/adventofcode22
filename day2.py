@@ -21,6 +21,7 @@ def calcWin(opponent: str, player: str):
         if player == "Z":
             return 3
 
+
 def calcScore(opponent: str, player: str):
     if player == "X":
         return 1 + calcWin(opponent, player)
@@ -29,6 +30,7 @@ def calcScore(opponent: str, player: str):
     if player == "Z":
         return 3 + calcWin(opponent, player)
     print("error")
+
 
 def calcPart2(opponent: str, player: str):
     if opponent == "A":
@@ -54,13 +56,13 @@ def calcPart2(opponent: str, player: str):
             return 6 + 1
 
 
-file = open("input2.txt","r")
+file = open("input2.txt", "r")
 lines = file.readlines()
 
 score = 0
 score2 = 0
 for line in lines:
-    opponent,player = line[0], line[2]
+    opponent, player = line[0], line[2]
     score += calcScore(opponent, player)
     score2 += calcPart2(opponent, player)
 
