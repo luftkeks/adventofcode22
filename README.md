@@ -7,3 +7,5 @@
 - Day 3 ist jetzt auch python - war verkatert
     - TIL: ord() ist eine native funktion und es gibt sets auch in python - brauchte ich zu uni zeiten nie
 - Day 4 is actually in rust - Wenn ich lesen könnte, hätte ich mir einiges an arbeit sparen können.
+- Day 5 ist jetzt auch in python und zwar übel crappy - keine Ahnung ob und wann ich das schön mache.
+- Day 6 war irgendwie übel einfach (und auch python) - das wird ziemlich sicher noch schön.
